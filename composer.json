@@ -1,0 +1,22 @@
+{
+    "name": "leammas/yii2-megaplanauth",
+    "description": "Provides ability to auth users using Megaplan Auth API",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","megaplan","auth"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leammas",
+            "email": "leammas@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "linslin/yii2-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "leammas\\yii2\\megaplanauth\\": ""
+        }
+    }
+}
